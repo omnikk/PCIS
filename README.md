@@ -149,29 +149,3 @@
 | CI/CD | GitLab CI |
 | CASE-средство | Visual Paradigm |
 | Нормативная база | ГОСТ 34.601-90, ISO/IEC 12207 |
-
-## Структура репозитория
-
-```
-/
-├── docs/
-│   ├── design/
-│   │   ├── stage1/          # Отчёт обследования, AS-IS модели
-│   │   ├── stage2/          # Концепция системы, ТЗ, глоссарий
-│   │   ├── stage3/          # Эскизный проект, прототипы UI
-│   │   └── stage4/          # UML-диаграммы, API-спецификация
-│   └── README.md
-├── src/
-│   ├── ToiR.Domain/
-│   ├── ToiR.Application/
-│   ├── ToiR.Contracts/
-│   ├── ToiR.Infrastructure/
-│   ├── ToiR.Web/
-│   ├── ToiR.Reporting/
-│   └── ToiR.Shared/
-├── tests/
-│   ├── ToiR.Tests.Unit/
-│   └── ToiR.Tests.Integration/
-└── db/
-    └── migrations/
-```
